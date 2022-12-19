@@ -66,3 +66,35 @@ private void bt_clearActionPerformed(java.awt.event.ActionEvent evt) {
         jumlah=0.0;
         bilangan="";
     }
+
+private void bt_tambahActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+        bil1 =Double.parseDouble(bilangan);
+        txt_hasil.setText("+");
+        bilangan="";
+        pilih=1;       
+    }                                         
+ 
+    private void bt_kurangActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        // TODO add your handling code here:
+        bil1 =Double.parseDouble(bilangan);
+        txt_hasil.setText("-");
+        bilangan="";
+        pilih=2;
+    }                                         
+ 
+    private void bt_kaliActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        bil1 =Double.parseDouble(bilangan);
+        txt_hasil.setText("*");
+        bilangan="";
+        pilih=3;
+    }                                       
+ 
+    private void bt_bagiActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here: 
+        bil1 =Double.parseDouble(bilangan);
+        txt_hasil.setText("/");
+        bilangan="";
+        pilih=4;
+    }
